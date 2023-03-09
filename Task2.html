@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>Survey Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+    <script defer src="task2.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="" action="/">
+        <h1>Survey Form</h1>
+        <div class="input-control">
+          <label for="Username">Name:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter your name"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="password">Password</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="Enter your password"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="password2">Password again</label>
+          <input
+            id="password2"
+            name="password2"
+            type="password"
+            placeholder="Enter your pasword again"
+          />
+          <div class="error"></div>
+        </div>
+        <div>
+          <label for="feedback">Feedback:</label>
+          <textarea
+            id="feedback"
+            name="feedback"
+            placeholder="Enter your feedback"
+          ></textarea>
+        </div>
+        <input
+          class="btn"
+          type="submit"
+          value="Submit"
+          style="margin: 20px auto 0 auto"
+        />
+      </form>
+    </div>
+  </body>
+</html>
